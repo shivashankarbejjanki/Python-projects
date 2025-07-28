@@ -50,7 +50,7 @@ def step_by_step_calculator(expression):            # ast.parse takes the input 
     except Exception as e:
         print(f"Error: {e}")
 
-# Example usage
+# Example Usage
 if __name__ == "__main__":
     expr = input("Enter a math expression: ")
     step_by_step_calculator(expr)
